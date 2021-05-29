@@ -13,8 +13,10 @@ export const overrideWindowOpen = ClientFunction(() => {
   };
 });
 
-// @ts-ignore
-export const getLastWindowOpenUrl = ClientFunction(() => window.__lastWindowOpenUrl);
+export const getLastWindowOpenUrl = ClientFunction(
+  // @ts-ignore
+  () => window.__lastWindowOpenUrl
+);
 
 test("First download test", async (t) => {
   const downloadButton = Selector("button");
