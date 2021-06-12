@@ -1,9 +1,8 @@
 {
-  "name": "downloading",
+  "name": "manipulate-download-dir-testing",
   "version": "1.0.0",
-  "description": "testing the manipulation of the default download directory of the Chrome browser.",
+  "description": "Testing the manipulation of the default download directory of the Chrome browser.",
   "author": "Martin Hanci",
-  "private": true,
   "scripts": {
     "test:chrome": "testcafe chrome src -e"
   },
